@@ -19,8 +19,35 @@ h1 {
   text-align: center;
   padding-top: 40px;
 }
-p {
+.textH1 {
   padding-top: 20px;
   color: #86bfd3;
   text-align: center;
+}
+.containerTwo {
+  padding: 40px 60px;
+}
+h2 {
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+label {
+  font-weight: 800;
+  padding: 10px 0 10px;
+}
+.email,
+.password {
+  height: 50px;
+  margin-bottom: 10px;
+}
+.check {
+  margin-bottom: 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.contaienrCheckbox {
+  display: flex;
 }

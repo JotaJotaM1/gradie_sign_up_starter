@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.containerOne {
+  width: 100%;
+  height: 470px;
+  background-color: #013243;
+  background-image: url("../img/iPhone Mockup.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+h1 {
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+p {
+  padding-top: 20px;
+  color: #86bfd3;
+  text-align: center;
+}

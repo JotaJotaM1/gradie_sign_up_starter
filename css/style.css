@@ -81,3 +81,51 @@ a {
   color: #013243;
   font-weight: 600;
 }
+
+@media (min-width: 700px) {
+  body {
+    background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main {
+    margin: 15%;
+  }
+  .containerOne {
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+  }
+  .containerTwo {
+    background-color: white;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+  @media (min-width: 1440px) {
+    body {
+      background-image: url("../img/Background.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    main {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 25%;
+    }
+    .containerTwo {
+      background-color: white;
+      width: 400px;
+      border-top-right-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+      border-bottom-left-radius: 0;
+    }
+    .containerOne {
+      width: 400px;
+      height: 497px;
+      border-top-right-radius: 0;
+      border-top-left-radius: 1rem;
+      border-bottom-left-radius: 1rem;
+    }
+  }
+}
